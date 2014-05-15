@@ -1,5 +1,5 @@
 /**
- * Created by ljw on 6/05/14.
+ * From Scala Functional Programming book
  */
 
 package org.ljw

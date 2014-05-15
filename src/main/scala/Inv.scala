@@ -37,7 +37,8 @@ def splitCount(l: List[Int], r: List[Int], acc: Int) : (List[Int], Int) = {
     case (Nil, y::ys) => (y::ys, acc)
     case (x::xs, Nil) => (x::xs, acc)
   }
-}*/
+}
+*/
 
 object Control {
   def using[A <: { def close(): Unit }, B](resource: A)(f: A => B): B =
